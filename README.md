@@ -1,5 +1,5 @@
 # My-Java-training-projects
-//Temperature Converter
+//Temperature Converter project
 import java.util.Scanner;
 
 public class Temp_converter 
