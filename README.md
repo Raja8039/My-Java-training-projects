@@ -1,13 +1,14 @@
 # My-Java-training-projects
-//Temperature Converter project
-import java.util.Scanner;
+//Temperature Converter
 
-public class Temp_converter 
-{
+    import java.util.Scanner;
+    public class Temp_converter 
+    {
 	public void cel_far()
 	{
-		Scanner sc=new Scanner(System.in); 
+		Scanner sc=new Scanner(System.in);  
 		System.out.println("Enter the temperature in celsius:");
+  
 		double c=sc.nextInt();
 		double f= c*9/5 + 32;
 		System.out.println("The temperature in Fahrenheit:"+f);
@@ -52,7 +53,6 @@ public class Temp_converter
 		double  f = k-273.1* (9/5) + 32;
 		System.out.println("The temperature in Celsius:"+k);
 	}
-
 	public static void main(String[] args) {
 		Temp_converter a=new Temp_converter();
 		Scanner sc=new Scanner(System.in);
@@ -82,4 +82,5 @@ public class Temp_converter
 
 	}
 
-}
+    }	
+	
